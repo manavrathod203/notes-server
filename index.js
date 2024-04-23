@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8000;
 
 connectDB();
 app.use(cors({
-  origin: 'https://notes-mern-9ggu.onrender.com/',
+  origin: 'https://notes-mern-9ggu.onrender.com',
   credentials:true
 }));
 app.use(express.urlencoded({ extended: true }));
