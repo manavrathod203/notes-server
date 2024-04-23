@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8000;
 
 connectDB();
 const corsOptions ={
-  origin:'*', 
+  origin:'https://notes-mern-9ggu.onrender.com/', 
   credentials:true,            //access-control-allow-credentials:true
   optionSuccessStatus:200,
 }
